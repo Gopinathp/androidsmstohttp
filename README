@@ -1,0 +1,6 @@
+Very basic Android sample application which process incoming sms in an Android phone and sends the text as a HTTP post message to a URL. This app uses the IntentService for delegating the SMS processing action instead of blocking the SMS receiver component.
+
+This app does not have any meaningful UI.
+
+You can test the app by changing the  url in sendToRegistrationServer() method inside the SmsProcessor.java
+and you will see that the incoming sms will be delivered on that url in mb and ms GET parameters.
